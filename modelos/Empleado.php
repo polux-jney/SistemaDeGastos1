@@ -21,15 +21,13 @@ Class Empleado{
       return ejecutarConsulta($sql);
   }
 
-  public function desactivar($idEmpleado){
     public function desactivar($idEmpleado, $fechaActualizacion, $idEmpActualiza){
 		$sql= "UPDATE empleados SET activo = '0', fechaBaja='$fechaActualizacion', fechaActualizacion='$fechaActualizacion', idEmpActualiza='$idEmpActualiza'
     WHERE idEmpleado='$idEmpleado' " ;
     return ejecutarConsulta($sql);
   }
 
-  public function activar($idEmpleado){
-    public function activar($idEmpleado, $fechaActualizacion, $idEmpActualiza){
+     public function activar($idEmpleado, $fechaActualizacion, $idEmpActualiza){
 		$sql= "UPDATE empleados SET activo = '1',fechaEntrada='$fechaActualizacion', fechaBaja='', fechaActualizacion='$fechaActualizacion', idEmpActualiza='$idEmpActualiza'
     WHERE idEmpleado='$idEmpleado' " ;
     return ejecutarConsulta($sql);

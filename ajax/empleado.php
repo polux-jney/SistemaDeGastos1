@@ -124,8 +124,8 @@ switch ($_GET["op"]){
 
   case 'mostrar':
     $rspta=$empleado->mostrar($idEmpleado);
-    write_log("ajax_empleado_case:Mostrar");
-    write_log(json_encode($rspta));
+  //  write_log("ajax_empleado_case:Mostrar"); ver en el log
+   // write_log(json_encode($rspta));
 
     $rspta["nombre"]=decryption($rspta["nombre"]);
     $rspta["primerApellido"]=decryption($rspta["primerApellido"]);

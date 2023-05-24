@@ -158,7 +158,7 @@ function mostrar(idEmpleado) {
       //console.log(data);
       //convertimos los datos que vienen de regreso en formato Json a tipo objeto
       data = JSON.parse(data);
-      console.log(data);
+      // console.log(data);
       //Mostramos el formulario y ocultamos el listado
       mostrarform(true);
       //rellenamos a través de instrucciones jQuery los campos del formulario con los datos que nos regresó el Ajax
@@ -200,7 +200,7 @@ function desactivar(idEmpleado) {
   //Añadimos funcionalidad para cada botón, capturando el evento clic y mandando una función anónima
   //En caso de que decida continuar mandamos a llamar a nuestro Ajax de desactivamos
   $("#rptaSi").click(function () {
-    console.log("El usuario ha elegido dar de baja al empleado");
+    // console.log("El usuario ha elegido dar de baja al empleado");
     $.post(
       "../ajax/empleado.php?op=desactivar",
       { idEmpleado: idEmpleado },
@@ -222,7 +222,7 @@ function desactivar(idEmpleado) {
 
   //En caso de que no decida continuar mandamos no realizamos ninguna acción
   $("#rptaNo").click(function () {
-    console.log("El usuario ha elegido cancelar la accion");
+    //  console.log("El usuario ha elegido cancelar la accion");
     toastr.clear(ventanaEleccion);
   });
 }
@@ -237,7 +237,7 @@ function activar(idEmpleado) {
   );
 
   $("#rptaSi").click(function () {
-    console.log("El usuario ha reactivar al empleado");
+    //  console.log("El usuario ha reactivar al empleado");
     $.post(
       "../ajax/empleado.php?op=activar",
       { idEmpleado: idEmpleado },
@@ -256,7 +256,7 @@ function activar(idEmpleado) {
   });
 
   $("#rptaNo").click(function () {
-    console.log("El usuario ha elegido cancelar la accion");
+    // console.log("El usuario ha elegido cancelar la accion");
     //Limpiamos mensajes que hayan quedado instanciados
     toastr.clear(ventanaEleccion);
   });

@@ -341,3 +341,29 @@ ajax_empleado_case:Mostrar
 ajax_empleado_case:Mostrar
 ===================== 2023-05-23 04:38:44 ==============
 {"idEmpleado":"3","nombre":"elFDcmlWb0ZJckxpUWpLVUdjNnptdz09OjqJm5Jjd+l6R9Fdz\/mFDA5W","primerApellido":"QWs1Rnpjb2hwaVA5T0lBQmxRMkhYQT09OjozpGG888CztpGyG+zw7kUP","segundoApellido":"M05LVG9LMVVGbjJBZE8weldIVHJMZz09Ojor\/IJG7mAHTY9fsr9wr+hB","email":"yozu@gmail.com","fechaEntrada":"2023-05-11 00:00:00","fechaBaja":"0000-00-00 00:00:00","idDepartamento":"1","idJefe":"0","esJefe":"0","usr":"azu","pwd":"$2y$11$jXO8cFa8QYT8DNU5.zACD.5FxJ2BPAJzOxe5JhVLvzmedNK.bN6r6","foto":"default.png","activo":"1","fechaCreacion":"2023-05-18 20:35:32","fechaActualizacion":"2023-05-18 20:35:32","idEmpActualiza":"1"}
+===================== 2023-05-24 02:33:44 ==============
+ajax_empleado_case:Mostrar
+===================== 2023-05-24 02:33:44 ==============
+{"idEmpleado":"6","nombre":"MXN4NmlEUXFoVlE4Uzh6ck9wYU9OQT09OjrjmWoOH1cs7dfzcO1nmkj1","primerApellido":"YWRZSzhrUWNuVEI1MC9nNUI2cUNQdz09Ojr0JNI7CkPZaUeiabbB1MKS","segundoApellido":"VEJSS2JKM2lPanpHMGRGTW9kM3pxZz09OjpatO\/DTY+7cC9tDgTRnPBW","email":"sala123q@gmail.coim","fechaEntrada":"2023-05-02 00:00:00","fechaBaja":"0000-00-00 00:00:00","idDepartamento":"4","idJefe":"0","esJefe":"1","usr":"pacheco","pwd":"$2y$11$OY6tjgmvNU2w9MZM7RTvR.E\/6p.6t.aYJahu8eAprbb37LT.yIFEO","foto":"default.png","activo":"1","fechaCreacion":"2023-05-23 02:18:43","fechaActualizacion":"2023-05-23 02:18:43","idEmpActualiza":"1"}
+===================== 2023-05-24 02:33:56 ==============
+Ajax empleado - editar iguales valor de hashValidador: b048f8ff92e78600fdcddd790c2804ba0b1ed673572291eaa10e5e02a1c6dc8b || pwd = 
+===================== 2023-05-24 02:33:57 ==============
+Modelo empleado - editar query =UPDATE empleados SET nombre='c2UwVVpJQTFLMlRlYklTdEplVXgzQT09Ojp5rcILfkdRR4ccWrh6H8jy', primerApellido='K1JqYXVCWENDck5FT05KMnZGay9IUT09OjpGzGwaehVlCuGTMBmsr0zz', segundoApellido='RkpIcHV6K01Tdkw1V1BtczZZUHJ5QT09OjpJW/cfFrAKEZoQvhE0FzcH', email='sala123q@gmail.coim', fechaEntrada='2023-05-02', fechaBaja='', idDepartamento='4', idJefe='1', esJefe='0', usr='pacheco', foto='default.png', fechaActualizacion='2023-05-24', idEmpActualiza='1'
+      WHERE idEmpleado='6' 
+===================== 2023-05-24 02:34:10 ==============
+ajax_empleado_case:Mostrar
+===================== 2023-05-24 02:34:10 ==============
+{"idEmpleado":"3","nombre":"elFDcmlWb0ZJckxpUWpLVUdjNnptdz09OjqJm5Jjd+l6R9Fdz\/mFDA5W","primerApellido":"QWs1Rnpjb2hwaVA5T0lBQmxRMkhYQT09OjozpGG888CztpGyG+zw7kUP","segundoApellido":"M05LVG9LMVVGbjJBZE8weldIVHJMZz09Ojor\/IJG7mAHTY9fsr9wr+hB","email":"yozu@gmail.com","fechaEntrada":"2023-05-24 00:00:00","fechaBaja":"0000-00-00 00:00:00","idDepartamento":"1","idJefe":"0","esJefe":"0","usr":"azu","pwd":"$2y$11$jXO8cFa8QYT8DNU5.zACD.5FxJ2BPAJzOxe5JhVLvzmedNK.bN6r6","foto":"default.png","activo":"1","fechaCreacion":"2023-05-18 20:35:32","fechaActualizacion":"2023-05-24 00:00:00","idEmpActualiza":"1"}
+===================== 2023-05-24 02:34:51 ==============
+Ajax empleado - editar iguales valor de hashValidador: b048f8ff92e78600fdcddd790c2804ba0b1ed673572291eaa10e5e02a1c6dc8b || pwd = 
+===================== 2023-05-24 02:34:51 ==============
+Modelo empleado - editar query =UPDATE empleados SET nombre='Mno3akxMbTVkRVcxSHZXRU5hS3Vwdz09OjpPo7L1nFkU7buCuqcJT0as', primerApellido='S1RrMlF0QmdFMW0vYndiOEEwMGErUT09OjoIKhcr2/s0J9ZkFDea7M4N', segundoApellido='d2xsNEVvQUcrR3JMZTVLcWdNWno5Zz09OjqldztOPj0+UO5GV9YzOrXw', email='yozu@gmail.com', fechaEntrada='2023-05-24', fechaBaja='', idDepartamento='1', idJefe='', esJefe='0', usr='azu', foto='1684917291.png', fechaActualizacion='2023-05-24', idEmpActualiza='1'
+      WHERE idEmpleado='3' 
+===================== 2023-05-24 02:34:53 ==============
+ajax_empleado_case:Mostrar
+===================== 2023-05-24 02:34:53 ==============
+{"idEmpleado":"3","nombre":"Mno3akxMbTVkRVcxSHZXRU5hS3Vwdz09OjpPo7L1nFkU7buCuqcJT0as","primerApellido":"S1RrMlF0QmdFMW0vYndiOEEwMGErUT09OjoIKhcr2\/s0J9ZkFDea7M4N","segundoApellido":"d2xsNEVvQUcrR3JMZTVLcWdNWno5Zz09OjqldztOPj0+UO5GV9YzOrXw","email":"yozu@gmail.com","fechaEntrada":"2023-05-24 00:00:00","fechaBaja":"0000-00-00 00:00:00","idDepartamento":"1","idJefe":"0","esJefe":"0","usr":"azu","pwd":"$2y$11$jXO8cFa8QYT8DNU5.zACD.5FxJ2BPAJzOxe5JhVLvzmedNK.bN6r6","foto":"1684917291.png","activo":"1","fechaCreacion":"2023-05-18 20:35:32","fechaActualizacion":"2023-05-24 00:00:00","idEmpActualiza":"1"}
+===================== 2023-05-24 02:38:49 ==============
+ajax_empleado_case:Mostrar
+===================== 2023-05-24 02:38:49 ==============
+{"idEmpleado":"3","nombre":"Mno3akxMbTVkRVcxSHZXRU5hS3Vwdz09OjpPo7L1nFkU7buCuqcJT0as","primerApellido":"S1RrMlF0QmdFMW0vYndiOEEwMGErUT09OjoIKhcr2\/s0J9ZkFDea7M4N","segundoApellido":"d2xsNEVvQUcrR3JMZTVLcWdNWno5Zz09OjqldztOPj0+UO5GV9YzOrXw","email":"yozu@gmail.com","fechaEntrada":"2023-05-24 00:00:00","fechaBaja":"2023-05-24 00:00:00","idDepartamento":"1","idJefe":"0","esJefe":"0","usr":"azu","pwd":"$2y$11$jXO8cFa8QYT8DNU5.zACD.5FxJ2BPAJzOxe5JhVLvzmedNK.bN6r6","foto":"1684917291.png","activo":"0","fechaCreacion":"2023-05-18 20:35:32","fechaActualizacion":"2023-05-24 00:00:00","idEmpActualiza":"1"}
