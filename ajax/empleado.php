@@ -146,14 +146,14 @@ switch ($_GET["op"]){
     break;
 
  case 'desactivar':
-  $rspta=$categoria->desactivar($idCategoria);
-  echo $rspta?"Categoría desactivada":"Error categoría no desactivada";
+  $rspta=$empleado->desactivar($idEmpleado,$fechaActualizacion,$idEmpActualiza);
+  echo $rspta?"Empleado dado de baja":"Error al dar de baja al empleado";
   break;
-   /*case 'activar':
-  $rspta=$categoria->activar($idCategoria);
-  echo $rspta?"Categoría activada":"Error categoría no activada";
+   case 'activar':
+    $rspta=$empleado->activar($idEmpleado,$fechaActualizacion,$idEmpActualiza);
+    echo $rspta?"Empleado reactivado":"Error al reactivar al empleado";
   break;
-*/
+
   }
 
 
