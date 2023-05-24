@@ -1,0 +1,13 @@
+MArianadb.txt
+
+user:root
+pss:/BuwnA6zyP!y!S-R
+
+
+Mysql
+user:root
+pass:AUG7x4MP2PlHzLIK
+
+msql:
+  root
+   pws
